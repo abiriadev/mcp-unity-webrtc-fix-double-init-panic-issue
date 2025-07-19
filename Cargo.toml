@@ -1,0 +1,15 @@
+[workspace]
+members = [
+	"jitsi-jingle-sdp",
+	"jitsi-meet-signalling",
+	"jitsi-meet-signalling-c",
+	"jitsi-xmpp-parsers",
+	"trace-local",
+	"copy-dll",
+	"format-xml",
+]
+
+[patch.crates-io]
+minidom = { path = "./minidom" }
+tracing = { path = "./tracing/tracing" }
+tracing-subscriber = { path = "./tracing/tracing-subscriber" }

@@ -1,0 +1,14 @@
+[package]
+name = "trace-local"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+jitsi-meet-signalling-c = { version = "0.1.0", path = "../jitsi-meet-signalling-c", default-features = false, features = ["tls-rustls-native-roots"]}
+minidom = "0.15.1"
+tokio = { version = "1.27.0", default-features = false, features = ["rt-multi-thread"] }
+tracing = "0.1.37"
+tracing-subscriber = "0.3.16"
+xmpp-parsers = "0.19.2"

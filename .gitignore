@@ -1,0 +1,13 @@
+/target
+cp-dll
+*.log
+/unity-mirror/Assets/Scenes/Plugins/*.so
+/unity-mirror/Assets/Scenes/Plugins/*.dll
+/unity-mirror/Assets/Scenes/Plugins/*.dylib
+/unity-mirror/Assets/Scenes/Plugins/*.meta
+/unity-mirror/*.blob
+/jitsi-meet-unity/Runtime/Plugins/**.so
+/jitsi-meet-unity/Runtime/Plugins/**.dll
+/jitsi-meet-unity/Runtime/Plugins/**.dylib
+/jitsi-meet-unity/Runtime/Plugins/**.meta
+/ignored

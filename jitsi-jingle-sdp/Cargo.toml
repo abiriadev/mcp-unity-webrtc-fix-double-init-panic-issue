@@ -1,0 +1,21 @@
+[package]
+name = "jitsi-jingle-sdp"
+description = "Conversions between Jitsi-Meet-flavoured Jingle and SDP"
+version = "0.2.0"
+edition = "2021"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/avstack/jitsi-jingle-sdp"
+documentation = "https://docs.rs/jitsi-jingle-sdp"
+authors = ["Jasper Hugo <jasper@avstack.io>"]
+
+[dependencies]
+itertools = { version = "0.10", default-features = false, features = ["use_std"] }
+jitsi-xmpp-parsers = { path = "../jitsi-xmpp-parsers", version = "0.1", default-features = false }
+sdp = { version = "0.5", default-features = false }
+thiserror = { version = "1", default-features = false }
+xmpp-parsers = { version = "0.19", default-features = false, features = ["disable-validation"] }
+
+[dev-dependencies]
+minidom = { version = "0.15", default-features = false }
+pretty_assertions = { version = "1", default-features = false, features = ["std"] }
